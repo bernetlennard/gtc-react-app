@@ -1,0 +1,72 @@
+.app-shell {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.app-header__title h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.app-header__nav {
+    display: flex;
+    gap: 12px;
+}
+
+.app-header__nav a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: inherit;
+    border: 1px solid transparent;
+}
+
+.app-header__nav a.active {
+    border-color: #ccc;
+    font-weight: 600;
+}
+
+.app-content {
+    flex: 1;
+    padding: 24px;
+}
+
+.app-footer {
+    padding: 12px 24px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.app-footer__sep {
+    opacity: 0.6;
+}
+
+/* Tabellen */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: top;
+}
+
+thead th {
+    background: #f7f7f7;
+}
