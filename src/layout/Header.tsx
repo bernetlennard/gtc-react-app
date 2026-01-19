@@ -23,6 +23,10 @@ export default function Header() {
                 <NavLink to="/rates" className={({ isActive }) => (isActive ? "active" : "")}>
                     Rates
                 </NavLink>
+
+                <NavLink to="/calculator" className={({ isActive }) => (isActive ? "active" : "")}>
+                    Calculator
+                </NavLink>
             </nav>
         </header>
     );
