@@ -12,6 +12,7 @@ import CountriesArea from "../pages/CountriesArea";
 import CountriesPopulation from "../pages/CountriesPopulation";
 import CountryDetails from "../pages/CountryDetails";
 import Calculator from "../pages/Calculator.tsx";
+import Login from "../components/Login.tsx";
 
 export default function Main() {
     return (
@@ -32,6 +33,8 @@ export default function Main() {
                     <Route path="/countries/:iso" element={<CountryDetails />} />
 
                     <Route path="/calculator" element={<Calculator />} />
+
+                    <Route path="/login" element={<Login />} />
 
                     <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>

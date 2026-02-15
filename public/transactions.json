@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "transactionDate": "2026-02-15T14:30:00Z",
+    "userLogin": "lennard_b",
+    "sourceAmount": 100.00,
+    "sourceCurrency": "CHF",
+    "targetCurrency": "EUR",
+    "exchangeRate": 1.07
+  },
+  {
+    "id": 2,
+    "transactionDate": "2026-02-15T15:45:00Z",
+    "userLogin": "admin",
+    "sourceAmount": 250.50,
+    "sourceCurrency": "USD",
+    "targetCurrency": "CHF",
+    "exchangeRate": 0.92
+  }
+]
